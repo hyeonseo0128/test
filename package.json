@@ -1,0 +1,30 @@
+{
+  "name": "tracker_gps",
+  "version": "1.0.0",
+  "description": "Antenna Tracker GPS",
+  "main": "gcs_tracker.js",
+  "dependencies": {
+    "@serialport/parser-readline": "^9.0.0",
+    "gps": "^0.6.1",
+    "jspack": "0.0.4",
+    "moment": "^2.29.1",
+    "mqtt": "^4.3.6",
+    "nanoid": "^3.1.30",
+    "serialport": "^10.5.0",
+    "shortid": "^2.2.16",
+    "underscore": "^1.13.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hyeonseo Son",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IoTKETI/Tracker_GPS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IoTKETI/Tracker_GPS/issues"
+  },
+  "homepage": "https://github.com/IoTKETI/Tracker_GPS#readme"
+}
